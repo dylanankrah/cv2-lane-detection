@@ -1,0 +1,14 @@
+""" Pipeline:
+    - converting original images to HSL
+    - isolate white and yellow from HSL 
+    - convert to grayscale
+    - apply Gaussian Blur for smooth edges
+    - apply Canny Edge Detection
+    - discard uninteresting lines outside the road
+    - Hough transform to find lanes equations
+    - separate left & right lanes
+    - create smooth guiding lines
+    """
+
+>> talk about hough transform
+>> img (5) is actually a random image from internet
